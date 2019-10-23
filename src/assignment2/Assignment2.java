@@ -17,17 +17,18 @@ public class Assignment2 {
     public static void main(String[] args) {
         
         String cd[] = {"C","O","D","E","F","A","S","T"};
-        int i=1;
-        while(i<9)
-        {
+      int i=1;
+
+         while(i<9)
+              {
             for(int j=0;j<i;j++)
             {
-                System.out.println(""+cd[j]);
+                System.out.print(cd[j]);
             }
             int k =(8-i);
             while(k<8&k>0)
             {
-                System.out.println("*");
+                System.out.print("*");
                 k--;
             }
             System.out.println("\n");
